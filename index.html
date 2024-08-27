@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- Asegúrate de enlazar tu archivo CSS -->
+</head>
+<body>
+
+<main class="main_area">
+    <div class="informacion_main">
+        <textarea class="MainTexArea" name="IngresoDeltexto" placeholder="ingrese Texto aqui" id="inputtex"></textarea>
+        <div class="spanmensaje"> 
+            <span>Favor solo ingresar letras minusculas</span>
+        
+            <div class="botones">
+                <button id="encriptarBtn" onclick="encriptar()" class="Botonencriptar">Encriptar</button>
+                <button id="desencriptarBtn" onclick="desencriptar()" class="botonDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+    </div>
+    <div class="second_square">
+        <div class="mensaje_informacion">
+            <h2></h2>
+            <p></p>
+        </div>
+        <button id="copiar" onclick="copiar()" class="BotonCopiar">Copiar</button>
+    </div>
+
+</main>
+
+<footer class="Pie">Creado por Jorge Sepulveda</footer>
+<script src="app.js"></script>
+</body>
+</html>
+
